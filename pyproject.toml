@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "findmi"
+version = "0.1.0"
+description = ""
+authors = ["thewh1teagle <61390950+thewh1teagle@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tabulate = "^0.9.0"
+micloud = "^0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+findmi = 'findmi.main:main'
